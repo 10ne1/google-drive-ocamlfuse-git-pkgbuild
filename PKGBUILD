@@ -9,7 +9,7 @@ url="http://gdfuse.forge.ocamlcore.org/"
 license=('MIT')
 provides=('google-drive-ocamlfuse' 'google-drive-ocamlfuse-git')
 depends=('ocaml>=3.12.0' 'ocaml-findlib>=1.2.7' 'ocamlfuse>=2.7.1'
-'gapi-ocaml>=0.2.10' 'ocaml-sqlite3>=1.6.1')
+'gapi-ocaml-git>=0.3' 'ocaml-sqlite3>=1.6.1')
 conflicts=('google-drive-ocamlfuse')
 source=(google-drive-ocamlfuse-git::git+https://github.com/astrada/google-drive-ocamlfuse.git)
 md5sums=('SKIP')
